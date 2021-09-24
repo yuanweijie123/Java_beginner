@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - judgeThreeSumDistinct",
+            "request": "launch",
+            "mainClass": "judgeThreeSumDistinct"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - judgeThreeSum",
+            "request": "launch",
+            "mainClass": "judgeThreeSum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Maxint",
+            "request": "launch",
+            "mainClass": "Maxint"
+        }
+    ]
+}

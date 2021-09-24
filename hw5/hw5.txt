@@ -1,0 +1,55 @@
+
+HW #5.
+
+Question D.
+
+1.
+
+BigTheta(x^2)
+
+2.
+
+BigTheta(log(x))
+
+3.
+
+BigTheta(n^2)
+
+4.
+
+BigTheta(min(N, M))
+
+5.
+
+BigTheta(n * log(n))
+
+6.
+
+Proof:
+
+We just need to show there exist K and M such that
+|log_b^f(x)| < K * |log_10^f(x)| for any x > M
+<=> |lgf(x)|/lg(b) < K * |lgf(x)| for any x > M
+<=> K > 1/lg(b)
+we take K = 2/lg(b) and any M
+then we can get for any x > M
+|log_b^f(x)|<|K * log_10^f(x)|
+
+7.
+
+Proof:
+
+We need to show there exist K and M such that
+log p(x) < K * log x for any x > M
+We assume the highest degree term of p(x) is C * x^d
+when x approaches infinite, x^d will dominate other lower degree terms
+we assume there is a constant L and M, s.t. when x > M, p(x) < C * L * x^d
+log p(x) < log (C * L * x^d)
+<=> log p(x) < d * log x + log (C * L)
+Then K > [log (C * L)/log x] + d,
+K * log x > d * log x + log (C * L) > log p(x)
+proved
+
+8.
+
+ceil(f(n)) <= f(n) + 1 ∈ O(f(n) + 1) = O(f(n))

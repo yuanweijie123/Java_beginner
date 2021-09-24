@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AGTestYear",
+            "request": "launch",
+            "mainClass": "AGTestYear",
+            "projectName": "lab1_f2649112"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Year",
+            "request": "launch",
+            "mainClass": "Year",
+            "projectName": "lab1_f2649112"
+        }
+    ]
+}
